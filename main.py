@@ -29,7 +29,7 @@ from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_sc
 from google.colab import drive
 
 drive.mount('/content/drive')
-path = '/content/drive/MyDrive/Colab Notebooks/Projeto/samples/'
+path = '/content/drive/samples/'
 
 def extract_signal_attributes(FFT_signal):
   min_signal = min(FFT_signal)
